@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple Recipe Guide</title>
+        <meta charset="utf-8">
+        <style>
+            body {
+                background-color: grey;
+            }
+            h1 {
+                color: red;
+            }
+            h2 {
+                color: blue;
+            }
+            a {
+                color: brown;
+            }
+            }
+            .recipe {
+                background-color: black;
+            }
+            table {
+                width: 100;
+                background-color: green;
+            }
+            th {
+                background-color: purple;
+                color: pink;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Simple Recipe Guide</h1>
+        <h2>Recipes</h2>
+        <ul>
+            <li><a href="#scrambled-eggs">Scrambled Eggs</a></li>
+            <li><a href="#grilled-cheese">Grilled Cheese Sandwich</a></li>
+        </ul>
+
+        <div class="recipe" id="scrambled-eggs">
+            <h2>Scrambled Eggs</h2>
+            <h3>Ingredients:</h3>
+            <table>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>2 large</td>
+                </tr>
+                <tr>
+                    <td>Milk</td>
+                    <td>2 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>1 tbsp</td>
+                </tr>
+                <tr>
+                    <td>Salt</td>
+                    <td>to taste</td>
+                </tr>
+            </table>
+            <h3>Steps:</h3>
+            <ol>
+                <li>Whisk eggs and milk in a bowl.</li>
+                <li>Heat butter in a non-stick pan over medium heat.</li>
+                <li>Pour the mixture into the pan and stir gently until set.</li>
+                <li>Season with salt and serve warm.</li>
+            </ol>
+        </div>
+
+        <div class="recipe" id="grilled-cheese">
+            <h2>Grilled Cheese Sandwich</h2>
+            <h3>Ingredients:</h3>
+            <table>
+                <tr>
+                    <th>Ingredient</th>
+                    <th>Quantity</th>
+                </tr>
+                <tr>
+                    <td>Bread Slices</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Cheese</td>
+                    <td>1 slice</td>
+                </tr>
+                <tr>
+                    <td>Butter</td>
+                    <td>1 tbsp</td>
+                </tr>
+            </table>
+            <h3>Steps:</h3>
+            <ol>
+                <li>Butter one side of each bread slice.</li>
+                <li>Place the cheese between the bread slices, buttered sides out.</li>
+                <li>Cook in a pan over medium heat until golden brown on both sides.</li>
+                <li>Serve hot and enjoy!</li>
+            </ol>
+        </div>
+    </body>
+</html>
