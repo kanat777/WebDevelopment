@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 980px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.left-section {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.facebook-logo {
+    font-size: 50px;
+    color: #1877f2;
+    margin: 0;
+    font-weight: bold;
+    text-transform: lowercase;
+}
+
+.description {
+    font-weight: bold;
+    font-size: 24px;
+    color: color;;
+    margin-top: 20px;
+}
+
+.right-section {
+    flex: 1;
+    max-width: 400px;
+}
+
+.login-box {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input {
+    padding: 12px;
+    border: 1px solid #ccd0d5;
+    border-radius: 6px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.login-btn {
+    background-color: #1877f2;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+.forgot-link {
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+}
+
+.forgot-link:hover {
+    text-decoration: underline;
+}
+
+.separator {
+    height: 1px;
+    background-color: #e4e6eb;
+    margin: 10px 0;
+}
+
+.signup-btn {
+    background-color: #42b72a;
+    color: #ffffff;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    background-color: #36a420;
+}
+
+.create-page {
+    text-align: center;
+    font-size: 14px;
+    color: #606770;
+    margin-top: 20px;
+}
+
+.create-page a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.create-page a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    width: 100%;
+    max-width: 980px;
+    text-align: center;
+    margin-top: auto;
+    padding: 10px 0;
+}
+
+.footer-links, .footer-more {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #606770;
+}
+
+.footer-links a, .footer-more a {
+    color: #606770;
+    text-decoration: none;
+}
+
+.footer-links a:hover, .footer-more a:hover {
+    text-decoration: underline;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: #606770;
+    margin-top: 10px;
+}
